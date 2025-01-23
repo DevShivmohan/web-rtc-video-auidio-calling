@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Video Call</title>
+</head>
+<body>
+<div>
+    <form id="userForm">
+        <label for="userId">Your User ID:</label>
+        <input type="text" id="userId" required>
+        <label for="peerId">Peer User ID:</label>
+        <input type="text" id="peerId" required>
+        <button type="submit">Register</button>
+    </form>
+    <button id="callButton" disabled>Call</button>
+</div>
+
+<div id="incomingCall" style="display: none;">
+    <p>Incoming call from <span id="callerId"></span></p>
+    <button id="acceptCall">Accept</button>
+    <button id="rejectCall">Reject</button>
+</div>
+
+<video id="localVideo" autoplay playsinline></video>
+<video id="remoteVideo" autoplay playsinline></video>
+<script th:src="@{script.js}"></script>
+</body>
+</html>
