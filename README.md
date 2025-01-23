@@ -11,13 +11,6 @@
     <li> StompJS <a href="https://cdnjs.com/libraries/stomp.js">CDN LINK</a> </li>
 </ul>
 
-### Feel free to contact me if any help is needed.
-<ul>
-    <li><a href="https://twitter.com/Heshantk">Twitter</a></li>
-    <li><a href="https://www.instagram.com/heshan_thenura/">Instagram</a></li>
-    <li><a href="https://www.linkedin.com/in/heshanthenura">LinkedIn</a></li>
-</ul>
-
 ## Instructions
 ### 1. Open [https://localhost:8443/](https://localhost:8443) in browser. You can change port number as you wish by editing application.properties file
 ### 2. Enter your ID and Press Connect Button
